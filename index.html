@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mazais Erudīts | Logopēda privātprakse</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #f8f7ff, #eef1ff);
+    color: #444;
+}
+
+/* TOP CONTACT BAR */
+.top-bar {
+    background: #5E548E;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.top-bar a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+/* HEADER LAYOUT */
+header {
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: 20px;
+}
+
+.logo img {
+    width: 180px; /* slightly bigger logo */
+    max-width: 90%;
+}
+
+.header-center {
+    text-align: center;
+}
+
+h1.site-title {
+    font-size: 52px; /* bigger and prominent */
+    color: #5E548E;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #6D6875;
+    margin: 5px 0;
+}
+
+.address {
+    font-size: 14px;
+    color: #777;
+}
+
+nav {
+    margin-top: 25px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #5E548E;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.section h2 {
+    color: #5E548E;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+button {
+    background-color: #CDB4DB;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b89cd3;
+}
+
+footer {
+    background: #5E548E;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 60px;
+    font-size: 14px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+    }
+    .logo {
+        position: relative;
+        left: 0;
+        margin-bottom: 15px;
+    }
+    h1.site-title {
+        font-size: 38px;
+    }
+    .subtitle {
+        font-size: 16px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- CONTACT BAR -->
+<div class="top-bar">
+📞 <a href="tel:+37120000000">+371 20000000</a> |
+📧 <a href="mailto:info@mazaiserudits.lv">info@mazaiserudits.lv</a>
+</div>
+
+<header>
+
+<!-- LOGO LEFT -->
+<div class="logo">
+<img src="logo.png" alt="Mazais Erudīts logo">
+</div>
+
+<!-- CENTER TITLE -->
+<div class="header-center">
+<h1 class="site-title">Mazais Erudīts</h1>
+<p class="subtitle">Logopēda privātprakse</p>
+<p class="address">Mālu iela 10, Liepāja LV-3401, Latvija</p>
+</div>
+
+</header>
+
+<nav>
+<a href="#par">Par mums</a>
+<a href="#logopeds">Kas ir logopēds?</a>
+<a href="#pakalpojumi">Pakalpojumi</a>
+<a href="#galerija">Galerija</a>
+</nav>
+
+<section id="par" class="section">
+<h2>Par mums</h2>
+<p>Mazais Erudīts ir logopēda privātprakse Liepājā ar individuālu pieeju katram klientam.</p>
+</section>
+
+<section id="logopeds" class="section">
+<h2>Kas ir logopēds?</h2>
+<p>Logopēds palīdz koriģēt runas un komunikācijas traucējumus bērniem un pieaugušajiem.</p>
+</section>
+
+<section id="pakalpojumi" class="section">
+<h2>Pakalpojumi</h2>
+
+<div class="services">
+<div class="card"><h3>Bērnu konsultācijas</h3></div>
+<div class="card"><h3>Pieaugušo konsultācijas</h3></div>
+<div class="card"><h3>Individuāla terapija</h3></div>
+</div>
+
+<br><br>
+<button>Pierakstīties konsultācijai</button>
+</section>
+
+<section id="galerija" class="section">
+<h2>Galerija</h2>
+
+<div class="gallery">
+<img src="https://images.unsplash.com/photo-1588072432836-e10032774350">
+<img src="https://images.unsplash.com/photo-1577896851231-70ef18881754">
+<img src="https://images.unsplash.com/photo-1604881991720-f91add269bed">
+</div>
+
+</section>
+
+<footer>
+<p>📞 +371 20000000 | 📧 info@mazaiserudits.lv</p>
+<p>© 2026 Mazais Erudīts. Visas tiesības aizsargātas.</p>
+</footer>
+
+</body>
+</html>
